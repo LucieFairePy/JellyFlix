@@ -1,3 +1,15 @@
+.adminDrawerLogo img {
+  content: url(imagepath) !important;
+}
+
+imgLogoIcon {
+  content: url(imagepath) !important;
+}
+
+.pageTitleWithLogo {
+  background-image: url(imagepath) !important;
+}
+
 /*Variables*/
 
 :root {
@@ -66,19 +78,16 @@ fieldset.verticalSection.verticalSection-extrabottompadding {
   height: fit-content;
 }
 
-#itemDetailPage
-  button.cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast {
+#itemDetailPage button.cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast {
   border-radius: var(--rounding);
 }
 
 /*cardbox border-radius change*/
 
-#indexPage
-  button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+#indexPage button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
 .emby-scroller button.cardImageContainer.coveredImage.cardContent,
 .childrenItemsContainer button.cardImageContainer.coveredImage.cardContent,
-.nextUpItems
-  button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
+.nextUpItems button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
 .vertical-wrap button.cardImageContainer.coveredImage.cardContent,
 .emby-scroller button.cardImageContainer {
   border-radius: var(--rounding) var(--rounding) 0px 0px !important;
@@ -115,11 +124,9 @@ span.material-icons.checkboxIcon.checkboxIcon-checked.check {
   transition: opacity 0.3s ease-out;
   position: relative;
   z-index: 1;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.75),
-    transparent
-  ) !important;
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.75),
+      transparent) !important;
   color: #eee;
   height: 7.5em;
   pointer-events: none;
@@ -130,16 +137,16 @@ span.material-icons.checkboxIcon.checkboxIcon-checked.check {
   grid-template-areas: "one two" "three three";
 }
 
-.osdControls .flex.flex-direction-row.align-items-center > *:nth-child(1) {
+.osdControls .flex.flex-direction-row.align-items-center>*:nth-child(1) {
   grid-area: one;
   justify-self: flex-start;
 }
 
-.osdControls .flex.flex-direction-row.align-items-center > *:nth-child(2) {
+.osdControls .flex.flex-direction-row.align-items-center>*:nth-child(2) {
   grid-area: three;
 }
 
-.osdControls .flex.flex-direction-row.align-items-center > *:nth-child(3) {
+.osdControls .flex.flex-direction-row.align-items-center>*:nth-child(3) {
   grid-area: two;
   justify-self: flex-end;
   padding-right: 0.5em;
@@ -275,30 +282,31 @@ div#itemDetailPage {
 }
 
 @media (orientation: landscape) {
-  .layout-mobile
-    .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+  .layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
     flex-flow: row;
     width: 100% !important;
   }
+
   .layout-mobile .mainDetailButtons {
     margin: 0 5vh;
     width: 50vw !important;
     flex-shrink: 1;
   }
+
   .layout-mobile .infoWrapper.infoText {
     margin: 0 5vh !important;
     font-size: 5vh !important;
     max-width: 50%;
   }
+
   .layout-mobile .nameContainer {
     font-size: 6.5vh;
   }
-  .layout-mobile .primaryImageWrapper > img {
-    -webkit-mask-image: linear-gradient(
-      0deg,
-      transparent 0%,
-      black 90%
-    ) !important;
+
+  .layout-mobile .primaryImageWrapper>img {
+    -webkit-mask-image: linear-gradient(0deg,
+        transparent 0%,
+        black 90%) !important;
     mask-image: linear-gradient(0deg, transparent 0%, black 90%) !important;
   }
 }
@@ -323,18 +331,14 @@ div#itemDetailPage {
 .layout-tv div#itemBackdrop {
   width: 100vw;
   height: 100vh !important;
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       transparent,
       rgb(20 20 20 / 0.5),
-      rgb(20, 20, 20)
-    ),
-    linear-gradient(
-      to bottom,
+      rgb(20, 20, 20)),
+    linear-gradient(to bottom,
       transparent,
       rgb(20 20 20 / 0.5),
-      rgb(20, 20, 20)
-    );
+      rgb(20, 20, 20));
   z-index: -1;
   mask-image: none !important;
   -webkit-mask-image: none !important;
@@ -347,15 +351,14 @@ div#itemDetailPage {
   height: 10vh;
 }
 
-.layout-tv .mainDetailButtons > * {
+.layout-tv .mainDetailButtons>* {
   height: 10vh;
   width: 10vh;
 }
 
 /* Center the mouseover buttons */
 
-#castContent
-  .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {
   margin: auto;
 }
 
@@ -489,7 +492,7 @@ div#itemDetailPage {
   grid-gap: 6px;
 }
 
-.layout-mobile .primaryImageWrapper > img {
+.layout-mobile .primaryImageWrapper>img {
   position: absolute;
   left: 0;
   top: 0;
@@ -510,8 +513,7 @@ div#itemDetailPage {
   display: none;
 }
 
-.layout-mobile
-  .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+.layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
   font-size: 120%;
   justify-content: flex-start;
   align-content: flex-end;
@@ -520,7 +522,7 @@ div#itemDetailPage {
   z-index: 1;
 }
 
-.layout-mobile .detailPageWrapperContainer > * {
+.layout-mobile .detailPageWrapperContainer>* {
   z-index: 1;
 }
 
@@ -534,6 +536,7 @@ div#itemDetailPage {
   .layout-mobile .nameContainer {
     font-size: 2em;
   }
+
   .layout-mobile .infoWrapper.infoText {
     margin: 0 5vh !important;
     font-size: 2vh !important;
@@ -541,7 +544,7 @@ div#itemDetailPage {
   }
 }
 
-.cardText > .textActionButton {
+.cardText>.textActionButton {
   width: 100%;
   height: 100% !important;
   overflow: hidden;
@@ -551,6 +554,7 @@ div#itemDetailPage {
 div[data-type="Episode"] .cardText {
   opacity: 1;
 }
+
 /*Login Page*/
 
 .skinHeader.semiTransparent.noHeaderRight {
@@ -754,56 +758,50 @@ div#videoOsdPage {
   font-family: "Netflix Sans";
   font-weight: 100;
   font-display: optional;
-  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2)
-      format("woff2"),
-    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff)
-      format("woff");
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format("woff");
 }
+
 @font-face {
   font-family: "Netflix Sans";
   font-weight: 300;
   font-display: optional;
-  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2)
-      format("woff2"),
-    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff)
-      format("woff");
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff2) format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Lt.woff) format("woff");
 }
+
 @font-face {
   font-family: "Netflix Sans";
   font-weight: 400;
   font-display: optional;
-  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2)
-      format("woff2"),
-    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff)
-      format("woff");
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2) format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff) format("woff");
 }
+
 @font-face {
   font-family: "Netflix Sans";
   font-weight: 700;
   font-display: optional;
-  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2)
-      format("woff2"),
-    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff)
-      format("woff");
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format("woff");
 }
+
 @font-face {
   font-family: "Netflix Sans";
   font-weight: 800;
   font-display: optional;
-  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2)
-      format("woff2"),
-    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff)
-      format("woff");
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2) format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff) format("woff");
 }
+
 @font-face {
   font-family: "Netflix Sans";
   font-weight: 900;
   font-display: optional;
-  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2)
-      format("woff2"),
-    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff)
-      format("woff");
+  src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2) format("woff2"),
+    url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff) format("woff");
 }
+
 body,
 h1,
 h2,
@@ -938,7 +936,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 
 /*fixing Poster Margin*/
 
-.itemsContainer > .card > .cardBox {
+.itemsContainer>.card>.cardBox {
   margin: 0 !important;
 }
 
@@ -1066,6 +1064,7 @@ label.selectLabel {
 }
 
 @media (min-width: 31.25em) {
+
   .portraitCard,
   .smallBackdropCard,
   .squareCard {
@@ -1074,6 +1073,7 @@ label.selectLabel {
 }
 
 @media (min-width: 43.75em) {
+
   .portraitCard,
   .squareCard {
     width: calc(25% - 10px);
@@ -1081,6 +1081,7 @@ label.selectLabel {
 }
 
 @media (min-width: 50em) {
+
   .portraitCard,
   .squareCard {
     width: calc(20% - 10px);
@@ -1088,6 +1089,7 @@ label.selectLabel {
 }
 
 @media (min-width: 75em) {
+
   .portraitCard,
   .squareCard {
     width: calc(16.666666666666668% - 10px);
@@ -1095,6 +1097,7 @@ label.selectLabel {
 }
 
 @media (min-width: 87.5em) {
+
   .portraitCard,
   .smallBackdropCard,
   .squareCard {
@@ -1103,6 +1106,7 @@ label.selectLabel {
 }
 
 @media (min-width: 100em) {
+
   .portraitCard,
   .squareCard {
     width: calc(12.5% - 10px);
@@ -1110,6 +1114,7 @@ label.selectLabel {
 }
 
 @media (min-width: 120em) {
+
   .portraitCard,
   .squareCard {
     width: calc(11.11111111111111% - 10px);
@@ -1117,13 +1122,14 @@ label.selectLabel {
 }
 
 @media (min-width: 131.25em) {
+
   .portraitCard,
   .squareCard {
     width: calc(10% - 10px);
   }
 }
 
-.card.show-animation:focus > .cardBox {
+.card.show-animation:focus>.cardBox {
   transform: scale(1) !important;
 }
 
@@ -1255,37 +1261,34 @@ label.selectLabel {
 .layout-tv .emby-tab-button:focus::before,
 .layout-tv .paper-icon-button-light:focus::after,
 .layout-tv .listItem:focus::after,
-.layout-tv a.show-focus[is="emby-linkbutton"]:focus > .listItem::after,
+.layout-tv a.show-focus[is="emby-linkbutton"]:focus>.listItem::after,
 .layout-tv .raised:focus::after,
 .layout-tv #itemDetailPage .emby-button:focus::after {
   transform: translateX(0) !important;
   visibility: visible;
 }
 
-.layout-tv .card:focus ~ .card::before,
-.layout-tv .emby-tab-button:focus ~ .emby-tab-button::before,
-.layout-tv .paper-icon-button-light:focus ~ .paper-icon-button-light::after,
-.layout-tv .raised:focus ~ .raised::after,
-.layout-tv #itemDetailPage .emby-button:focus ~ .emby-button::after {
+.layout-tv .card:focus~.card::before,
+.layout-tv .emby-tab-button:focus~.emby-tab-button::before,
+.layout-tv .paper-icon-button-light:focus~.paper-icon-button-light::after,
+.layout-tv .raised:focus~.raised::after,
+.layout-tv #itemDetailPage .emby-button:focus~.emby-button::after {
   transform: translateX(-100%) !important;
 }
 
-.layout-tv .verticalSection:focus-within ~ .verticalSection .card::before,
-.layout-tv .verticalSection:focus-within ~ .section5 .card::before,
-.layout-tv .listItem:focus ~ .listItem::after,
-.layout-tv
-  a.show-focus[is="emby-linkbutton"]:focus
-  ~ a.show-focus[is="emby-linkbutton"]
-  > .listItem::after,
-.layout-tv .verticalSection:focus-within ~ .verticalSection .raised::after {
+.layout-tv .verticalSection:focus-within~.verticalSection .card::before,
+.layout-tv .verticalSection:focus-within~.section5 .card::before,
+.layout-tv .listItem:focus~.listItem::after,
+.layout-tv a.show-focus[is="emby-linkbutton"]:focus~a.show-focus[is="emby-linkbutton"]>.listItem::after,
+.layout-tv .verticalSection:focus-within~.verticalSection .raised::after {
   transform: translateY(-100%);
 }
 
 .layout-tv .verticalSection:focus-within .card::before,
-.layout-tv *:focus-within > .emby-tab-button::before,
-.layout-tv *:focus-within > .paper-icon-button-light::after,
-.layout-tv *:focus-within > .raised::after,
-.layout-tv #itemDetailPage *:focus-within > .emby-button::after {
+.layout-tv *:focus-within>.emby-tab-button::before,
+.layout-tv *:focus-within>.paper-icon-button-light::after,
+.layout-tv *:focus-within>.raised::after,
+.layout-tv #itemDetailPage *:focus-within>.emby-button::after {
   transform: translateX(100%);
 }
 
@@ -1334,7 +1337,7 @@ label.selectLabel {
   opacity: 1;
 }
 
-.layout-tv .vertical-wrap .card:focus ~ .card::before {
+.layout-tv .vertical-wrap .card:focus~.card::before {
   transform: none !important;
 }
 
@@ -1775,29 +1778,23 @@ h2 {
 /* Top menu transparency */
 
 .skinHeader {
-  background: linear-gradient(
-    to bottom,
-    rgb(5, 5, 5),
-    rgb(20, 20, 20)
-  ) !important;
+  background: linear-gradient(to bottom,
+      rgb(5, 5, 5),
+      rgb(20, 20, 20)) !important;
 }
 
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.semiTransparent {
-  background: linear-gradient(
-    to bottom,
-    rgb(20, 20, 20),
-    transparent
-  ) !important;
+  background: linear-gradient(to bottom,
+      rgb(20, 20, 20),
+      transparent) !important;
   box-shadow: none !important;
   transform: none !important;
 }
 
-body:not(.withSectionTabs) > .skinHeader {
-  background: linear-gradient(
-    to bottom,
-    rgba(20, 20, 20),
-    transparent
-  ) !important;
+body:not(.withSectionTabs)>.skinHeader {
+  background: linear-gradient(to bottom,
+      rgba(20, 20, 20),
+      transparent) !important;
   transform: none !important;
 }
 
@@ -1930,8 +1927,7 @@ body:not(.withSectionTabs) > .skinHeader {
   display: block;
 }
 
-.listItem-withContentWrapper:hover
-  .listItemImageButton.itemAction.paper-icon-button-light {
+.listItem-withContentWrapper:hover .listItemImageButton.itemAction.paper-icon-button-light {
   opacity: 100%;
 }
 
@@ -2002,13 +1998,10 @@ div:not(.paperList) .listItem {
 
 .listItemImage.listItemImage-large::after {
   content: "";
-  background-image: -moz-
-    oldlinear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0) 95%);
-  background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.8) 5%,
-    rgba(0, 0, 0, 0) 95%
-  );
+  background-image: -moz- oldlinear-gradient(bottom, rgba(0, 0, 0, 0.8) 5%, rgba(0, 0, 0, 0) 95%);
+  background-image: linear-gradient(to top,
+      rgba(0, 0, 0, 0.8) 5%,
+      rgba(0, 0, 0, 0) 95%);
   position: absolute;
   bottom: 0;
   right: -0.5px;
@@ -2054,7 +2047,7 @@ div:not(.paperList) .listItem {
   padding: 0 10px;
 }
 
-.layout-mobile .itemsContainer > *:last-child {
+.layout-mobile .itemsContainer>*:last-child {
   padding-right: 10px !important;
 }
 
@@ -2124,6 +2117,7 @@ div:not(.paperList) .listItem {
   transform: none !important;
   background: none !important;
 }
+
 /* My Media Styling */
 
 .section0 button.itemAction.textActionButton {
@@ -2266,10 +2260,10 @@ div:not(.paperList) .listItem {
   margin: 0 !important;
 }
 
-.chapterCard .innerCardFooter > .cardText:first-child {
+.chapterCard .innerCardFooter>.cardText:first-child {
   float: left;
 }
 
-.chapterCard .innerCardFooter > .cardText:last-child {
+.chapterCard .innerCardFooter>.cardText:last-child {
   float: right;
 }
