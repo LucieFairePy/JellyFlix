@@ -1,13 +1,13 @@
 .adminDrawerLogo img {
-  content: url(imagepath) !important;
+  content: url(https://raw.githubusercontent.com/LucieFairePy/JellyFlix/refs/heads/main/Luciflix.png) !important;
 }
 
 imgLogoIcon {
-  content: url(imagepath) !important;
+  content: url(https://raw.githubusercontent.com/LucieFairePy/JellyFlix/refs/heads/main/Luciflix.png) !important;
 }
 
 .pageTitleWithLogo {
-  background-image: url(imagepath) !important;
+  background-image: url(https://raw.githubusercontent.com/LucieFairePy/JellyFlix/refs/heads/main/Luciflix.png) !important;
 }
 
 /*Variables*/
