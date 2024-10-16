@@ -1,3 +1,15 @@
+.adminDrawerLogo img {
+  content: url(https://raw.githubusercontent.com/LucieFairePy/JellyFlix/refs/heads/main/Luciflix.png) !important;
+}
+
+imgLogoIcon {
+  content: url(https://raw.githubusercontent.com/LucieFairePy/JellyFlix/refs/heads/main/Luciflix.png) !important;
+}
+
+.pageTitleWithLogo {
+  background-image: url(https://raw.githubusercontent.com/LucieFairePy/JellyFlix/refs/heads/main/Luciflix.png) !important;
+}
+
 /*Variables*/
 
 :root {
