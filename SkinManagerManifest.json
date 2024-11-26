@@ -1,0 +1,58 @@
+[
+    {
+        "guid": "f21bbed8-3a97-4d8b-88b2-48aaa65427cb",
+        "name": "Merge Versions",
+        "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie\n",
+        "overview": "Automatically merge repeated movies",
+        "owner": "danieladov",
+        "imageUrl": "https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/resources/MergeVersions/thumb.png",
+        "category": "General",
+        "versions": [
+            {
+                "version": "10.9.1.1",
+                "changelog": "Bug fixes",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-mergeversions/releases/download/10.9.1.1/Jellyfin-Plugin-MergeVersions.zip",
+                "checksum": "79f745e3e35370754f77df1a303e0344",
+                "timestamp": "2024-05-15T16:45:00"
+            }
+        ]
+    },
+    {
+        "guid": "afe1de9c-63e4-4692-8d8c-7c964df19eb2",
+        "name": "Theme Songs",
+        "description": "Jellyfin Theme Songs plugin is a plugin that automatically downloads every theme song of your tv shows library\n",
+        "overview": "Automatically downloads theme songs of your tv shows",
+        "owner": "danieladov",
+        "category": "General",
+        "versions": [
+			{
+                "version": "10.10.0.1",
+                "changelog": "Update to 10.10.0",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-themesongs/releases/download/10.10.0.1/Jellyfin-Plugin-ThemeSongs.zip",
+                "checksum": "34d2370da17915fa6312922c91bb6dcc",
+                "timestamp": "2024-11-01T20:30:00"
+            }
+        ]
+    },
+    {
+        "guid": "e9ca8b8e-ca6d-40e7-85dc-58e536df8eb3",
+        "name": "Skin Manager",
+        "description": "Skin manager helps you to download and install most popular skins for jellyfin\n",
+        "overview": "Skins for jellyfin",
+        "owner": "danieladov",
+        "imageUrl": "https://raw.githubusercontent.com/danieladov/jellyfin-plugin-skin-manager/master/src/img/thumb.png",
+        "category": "General",
+        "versions": [
+	    {
+                "version": "2.0.2.0",
+                "changelog": "Fix Version\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/danieladov/jellyfin-plugin-skin-manager/releases/download/2.0.2/Jellyfin-Plugin-SkinManager.zip",
+                "checksum": "74df0156b96ebcb678bc9ff973a7d4f0",
+                "timestamp": "2024-11-04T23:02:52"
+            }
+        ]
+    }
+]
