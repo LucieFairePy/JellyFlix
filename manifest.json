@@ -94,65 +94,9 @@
                 "version": "12.0.0.0",
                 "changelog": "- Use latest API 3.2 (#49) @enter-a-random-username",
                 "targetAbi": "10.9.10.0",
-                "sourceUrl": "https://repo.jellyfin.org/files/plugin/fanart/fanart_12.0.0.0.zip",
+                "sourceUrl": "https://github.com/LucieFairePy/JellyFlix/raw/refs/heads/main/fanart_12.0.0.0.zip",
                 "checksum": "d12b79bf9c4d8d06c9d84747699373ab",
                 "timestamp": "2024-09-02T17:23:26Z"
-            },
-            {
-                "version": "11.0.0.0",
-                "changelog": "- 10.9 (#47) @crobibero",
-                "targetAbi": "10.9.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/files/plugin/fanart/fanart_11.0.0.0.zip",
-                "checksum": "2d38d1b5e02ab36876136ae8f61d99f5",
-                "timestamp": "2024-05-11T19:35:38Z"
-            },
-            {
-                "version": "10.0.0.0",
-                "changelog": "- chore(deps): update dependency microsoft.extensions.http to v6 (#41) @renovate\n\n### Bug Fixes ###\n- fix tv series no data (#38) @kdays\n\n### CI & build changes ###\n- fix: meta ci workflows (#39) @h1dden-da3m0n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_10.0.0.0.zip",
-                "checksum": "2c4c47db79ff8189f5798e1fd563eb52",
-                "timestamp": "2022-06-12T13:52:36Z"
-            },
-            {
-                "version": "9.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Extract DTOs and fix album parsing (#37) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Use meta ci (#35) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#35) @crobibero",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_9.0.0.0.zip",
-                "checksum": "6bdf8ed85c46172e500dd6e43b2b3d1c",
-                "timestamp": "2022-04-26T13:33:43Z"
-            },
-            {
-                "version": "8.0.0.0",
-                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#30) @crobibero",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_8.0.0.0.zip",
-                "checksum": "285e6097dc350d9655eb1fefa844094b",
-                "timestamp": "2022-01-08T17:22:44Z"
-            },
-            {
-                "version": "7.0.0.0",
-                "changelog": "- Remove jQuery and update to es6 (#26) @grafixeyehero\n- chore(ci): builds, releas drafter and more (#22) @h1dden-da3m0n\n- Use System.Text.Json (#21) @Ullmie02\n\n### New features and improvements ###\n- chore: plugin images (#25) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#23) @dependabot\n\n### CI & build changes ###\n- Update ci (#27) @h1dden-da3m0n",
-                "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_7.0.0.0.zip",
-                "checksum": "9c778b54acc3a5f0f0cccb020b63e02b",
-                "timestamp": "2021-09-03T18:30:22Z"
-            },
-            {
-                "version": "6.0.0.0",
-                "changelog": "changelog\n",
-                "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_6.0.0.0.zip",
-                "checksum": "ee4360bfcc8722d5a3a54cfe7eef640f",
-                "timestamp": "2020-12-05T22:25:43Z"
-            },
-            {
-                "version": "5.0.0.0",
-                "changelog": "changelog\n",
-                "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_5.0.0.0.zip",
-                "checksum": "f842f7d65d23f377761c907d40b89647",
-                "timestamp": "2020-07-20T01:30:48Z"
             }
         ]
     },
@@ -693,49 +637,9 @@
                 "version": "11.0.0.0",
                 "changelog": "- 10.9 (#79) @crobibero\n\n### Bug Fixes ###\n- Only add primary versions to collections (#69) @lordwelch\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#77) @methbkts\n\n### CI & build changes ###\n- fix: meta ci workflows (#70) @h1dden-da3m0n",
                 "targetAbi": "10.9.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/files/plugin/tmdb-box-sets/tmdb-box-sets_11.0.0.0.zip",
+                "sourceUrl": "https://github.com/LucieFairePy/JellyFlix/raw/refs/heads/main/tmdb-box-sets_11.0.0.0.zip",
                 "checksum": "fa6d4b4d90375535502987bd326bedc5",
                 "timestamp": "2024-05-11T19:34:33Z"
-            },
-            {
-                "version": "10.0.0.0",
-                "changelog": "- chore(deps): bump release-drafter/release-drafter from 5.15.0 to 5.17.6 (#59) @dependabot\n\n### Code or Repo Maintenance ###\n- 10.8 support (#68) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#67) @crobibero",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_10.0.0.0.zip",
-                "checksum": "0a4054c838d9c407e22fdc3f0bc7f698",
-                "timestamp": "2022-03-28T00:06:42Z"
-            },
-            {
-                "version": "9.0.0.0",
-                "changelog": "- Use BaseItemKind (#56) @crobibero\n\n### Bug Fixes ###\n- Update TMDbBoxSetManager.cs (#49) @WWWesten",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_9.0.0.0.zip",
-                "checksum": "402e47f4f1c13ad1aa52f8bae6f29fc0",
-                "timestamp": "2022-01-08T17:25:18Z"
-            },
-            {
-                "version": "8.0.0.0",
-                "changelog": "- 10.8 support (#47) @crobibero\n- Fix #36: Save button has wrong text (#40) @danimart1991\n\n### New features and improvements ###\n- Strip Collection string multilanguage (#43) @danimart1991\n- Fix #38: NullReferenceException on Collection Name (#41) @danimart1991\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#39) @dependabot\n\n### CI & build changes ###\n- chore(ci): builds, releas drafter and more (#34) @h1dden-da3m0n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_8.0.0.0.zip",
-                "checksum": "a45b5384f3bb81a86f7b4fd4da18a644",
-                "timestamp": "2021-11-01T21:03:17Z"
-            },
-            {
-                "version": "7.0.0.0",
-                "changelog": "changelog\n",
-                "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_7.0.0.0.zip",
-                "checksum": "1551792e6af4d36f2cead01153c73cf0",
-                "timestamp": "2020-12-05T22:07:21Z"
-            },
-            {
-                "version": "6.0.0.0",
-                "changelog": "changelog\n",
-                "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_6.0.0.0.zip",
-                "checksum": "b92b68a922c5fcbb8f4d47b8601b01b6",
-                "timestamp": "2020-07-20T01:32:58Z"
             }
         ]
     },
@@ -1614,105 +1518,9 @@
                 "version": "15.0.0.0",
                 "changelog": "- Fix test badge typo (#257) @RyanMelena\n- Fix test status badge (#256) @RyanMelena\n- Make \"Original Aspect Ratio\" property available to WebHooks (#249) @RyanMelena\n\n### Breaking changes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Bug Fixes ###\n- Allow smtp connection without SSL (#258) @RyanMelena\n\n### Dependency updates ###\n- chore(deps): update dependency mailkit to v4.7.0 (#174) @renovate\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.6.1152 (#246) @renovate",
                 "targetAbi": "10.9.7.0",
-                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_15.0.0.0.zip",
+                "sourceUrl": "https://github.com/LucieFairePy/JellyFlix/raw/refs/heads/main/webhook_15.0.0.0.zip",
                 "checksum": "0def08b5a1709aa4c4edec45c71f26fb",
                 "timestamp": "2024-10-26T18:18:20Z"
-            },
-            {
-                "version": "14.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Fix AuthenticationFailureNotifier, AuthenticationSuccessNotifier (#238) @crobibero\n- Actually register hosted services (#233) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.4.1084 (#187) @renovate",
-                "targetAbi": "10.9.1.0",
-                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_14.0.0.0.zip",
-                "checksum": "1097b179029bfc0242446efc7099f3e4",
-                "timestamp": "2024-05-17T16:51:02Z"
-            },
-            {
-                "version": "13.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Fix registering helpers during plugin initialization (#230) @crobibero",
-                "targetAbi": "10.9.1.0",
-                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_13.0.0.0.zip",
-                "checksum": "80717245cf09947e3c1c81027fbc416c",
-                "timestamp": "2024-05-13T23:39:55Z"
-            },
-            {
-                "version": "12.0.0.0",
-                "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
-                "targetAbi": "10.9.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_12.0.0.0.zip",
-                "checksum": "360760d637a92e88273373ba31956300",
-                "timestamp": "2024-05-11T19:15:42Z"
-            },
-            {
-                "version": "11.0.0.0",
-                "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_11.0.0.0.zip",
-                "checksum": "adcd796f3c83498a3577c1f6380324e3",
-                "timestamp": "2022-03-28T00:08:01Z"
-            },
-            {
-                "version": "10.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Pull correct ServerName (#85) @crobibero\n\n### Code or Repo Maintenance ###\n- Update ruleset, fix new warnings (#82) @crobibero\n\n### Dependency updates ###\n- chore(deps): update Microsoft.Extensions.Http requirement from 5.* to 6.* (#80) @dependabot\n- chore(deps): bump Handlebars.Net from 2.0.9 to 2.0.10 (#92) @dependabot\n- chore(deps): bump MailKit from 2.15.0 to 3.0.0 (#91) @dependabot",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_10.0.0.0.zip",
-                "checksum": "51de0e95b9c74c17cccd9f81c0674780",
-                "timestamp": "2022-01-08T17:26:30Z"
-            },
-            {
-                "version": "9.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Don't filter on userId for UserCreated notification type (#76) @crobibero\n\n### Code or Repo Maintenance ###\n- Fix CI (#79) @crobibero\n- 10.8 support (#69) @crobibero",
-                "targetAbi": "10.8.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_9.0.0.0.zip",
-                "checksum": "7346b010d59f3833b5f5920ab503063c",
-                "timestamp": "2021-11-01T14:32:52Z"
-            },
-            {
-                "version": "8.0.0.0",
-                "changelog": "### New features and improvements ###\n- Add UserDataSaved event handler (#70) @crobibero",
-                "targetAbi": "10.7.7.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_8.0.0.0.zip",
-                "checksum": "8a84683a9b52090229b2da2dabcd3d91",
-                "timestamp": "2021-09-27T01:38:21Z"
-            },
-            {
-                "version": "7.0.0.0",
-                "changelog": "### New features and improvements ###\n- Add tagline as available parameter (#68) @crobibero\n- Add Form Post support (#65) @crobibero\n\n### Bug Fixes ###\n- Fix Discord.handlebars template (#66) @crobibero\n- Fix string conversion for unbound properties (#62) @crobibero",
-                "targetAbi": "10.7.7.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_7.0.0.0.zip",
-                "checksum": "8d0a350aa9cd4fcc7f25cadcc0406286",
-                "timestamp": "2021-09-16T20:39:37Z"
-            },
-            {
-                "version": "6.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Fix string conversion in HandlebarsFunctionHelpers (#61) @crobibero\n- Actually fix sending username (#58) @crobibero",
-                "targetAbi": "10.7.7.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_6.0.0.0.zip",
-                "checksum": "778537d266aaa8b453398e6fcf21ae3b",
-                "timestamp": "2021-09-15T11:44:50Z"
-            },
-            {
-                "version": "5.0.0.0",
-                "changelog": "### Bug Fixes ###\n- Update Username parameter to be NotificationUsername (#57) @crobibero\n\n### CI & build changes ###\n- ci: set ABI version and more repo automation (#52) @h1dden-da3m0n",
-                "targetAbi": "10.7.7.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_5.0.0.0.zip",
-                "checksum": "d09416808acd1b47e1efefdde36cebc8",
-                "timestamp": "2021-09-14T00:18:12Z"
-            },
-            {
-                "version": "4.0.0.0",
-                "changelog": "- Update ci (#42) @h1dden-da3m0n\n\n### New features and improvements ###\n- Improve HTTP Request Error Logging (#51) @mark-monteiro\n\n### Bug Fixes ###\n- Fix loading of selected media types (#46) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump MailKit from 2.14.0 to 2.15.0 (#50) @dependabot\n- chore(deps): bump Handlebars.Net from 2.0.8 to 2.0.9 (#49) @dependabot\n- chore(deps): bump MailKit from 2.13.0 to 2.14.0 (#48) @dependabot\n\n### Code or Repo Maintenance ###\n- chore(deps): bump MailKit from 2.14.0 to 2.15.0 (#50) @dependabot\n- chore(deps): bump Handlebars.Net from 2.0.8 to 2.0.9 (#49) @dependabot\n- chore(deps): bump MailKit from 2.13.0 to 2.14.0 (#48) @dependabot",
-                "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_4.0.0.0.zip",
-                "checksum": "37a37b69fab5ccd8181a8c4af8d5dc7b",
-                "timestamp": "2021-08-30T11:30:18Z"
-            },
-            {
-                "version": "3.0.0.0",
-                "changelog": "- No changes",
-                "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_3.0.0.0.zip",
-                "checksum": "ad3b18dd68bedf4c49b634d630eb3146",
-                "timestamp": "2021-07-10T02:06:09Z"
             }
         ]
     },
